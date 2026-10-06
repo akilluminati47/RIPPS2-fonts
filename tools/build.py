@@ -88,11 +88,38 @@ def charset(ttfs, out):
     open(out, 'w', encoding='utf-8', newline='\n').write('\n'.join(rows) + '\n')
 
 
+# How each cut presents itself to a computer: RIPPS2 reads only the outlines, but desktop apps and browsers
+# go by these. Regular and Bold are one family (400 and 700); Bold Case is its own family, RIPPS2 Sleek Case,
+# in Bold, so it never collides with Bold when installed.
+NAMES = {
+    'RIPPS2Sleek-Regular': ('RIPPS2 Sleek', 'Regular', 400),
+    'RIPPS2Sleek-Bold': ('RIPPS2 Sleek', 'Bold', 700),
+    'RIPPS2Sleek-BoldCase': ('RIPPS2 Sleek Case', 'Bold', 700),
+}
+
+
+def present(font, stem):
+    family, style, weight = NAMES[stem]
+    full = family + ' ' + style
+    ps = family.replace(' ', '') + '-' + style
+    version = font['name'].getDebugName(5) or 'Version 1.2'
+    for nid, value in ((1, family), (2, style), (3, '%s;%s' % (ps, version.split()[-1])), (4, full), (6, ps)):
+        font['name'].setName(value, nid, 3, 1, 0x409)
+        font['name'].setName(value, nid, 1, 0, 0)
+    os2, head = font['OS/2'], font['head']
+    os2.usWeightClass = weight
+    bold = style == 'Bold'
+    os2.fsSelection = (os2.fsSelection & ~0x61) | (0x20 if bold else 0x40)  # BOLD or REGULAR, never both
+    head.macStyle = (head.macStyle & ~1) | (1 if bold else 0)
+
+
 def main():
     ttfs = []
     for stem, label, kw in CUTS:
         ttf = os.path.join(ROOT, 'fonts', 'ttf', stem + '.ttf')
-        sleek.build('square', **kw).save(ttf)
+        font = sleek.build('square', **kw)
+        present(font, stem)
+        font.save(ttf)
         ttfs.append(ttf)
         f = TTFont(ttf)
         f.flavor = 'woff2'

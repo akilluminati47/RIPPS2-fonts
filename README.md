@@ -69,14 +69,15 @@ theme can use the TTFs from its own folder like any font.
 @font-face { font-family: "RIPPS2 Sleek Case"; font-weight: 700; src: url("RIPPS2Sleek-BoldCase.woff2") format("woff2"); }
 ```
 
-**On a PC:** install the TTFs as usual. Regular and Bold are one family, *RIPPS2 Sleek*; Bold Case installs
-beside them.
+**On a PC:** install the TTFs as usual. Regular and Bold are one family, *RIPPS2 Sleek*; Bold Case is its own
+family, *RIPPS2 Sleek Case* (Bold), so the two never collide.
 
 ## Build
 
 Every glyph is a set of polylines on a grid six units tall (the cap height); each one is stroked and the
 strokes unioned into a single clean outline. The drawing lives in [tools/make_sleek_font.py](tools/make_sleek_font.py)
-(the same file RIPPS2 builds its copies from); [tools/build.py](tools/build.py) makes everything here from it.
+(the same file RIPPS2 builds its copies from); [tools/build.py](tools/build.py) makes everything here from it,
+and gives the fonts the names and weights desktop apps and browsers read (RIPPS2 itself reads only the outlines).
 
 ```
 pip install -r requirements.txt
