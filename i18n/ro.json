@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| Variantă | Grosime | Majuscule/minuscule | În RIPPS2 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "[RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) este cules în întregime cu ele. Orice altă temă din familia OPL poate folosi fișierele TTF din propriul folder, ca pe orice font."
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Latină de bază, Latin-1 și Latină extinsă A/B: 337 de puncte de cod în fiecare variantă. Deocamdată literele cu diacritice apar ca litera lor de bază. Lista completă: [docs/charset.md](docs/charset.md)."
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- Fonturile: [SIL Open Font License 1.1](LICENSE-OFL). Folosește-le, include-le, modifică-le; un font modificat primește un nume nou."
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2 (web) | [fonts/woff2](fonts/woff2): aceleași trei |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | linie groasă | majuscule | etichete lângă glife mari, cuvântul de vizualizare, linia versiunii |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "Fontul desenat pentru [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-ul pentru PS2: meniurile sale, indiciile de butoane, setările, cuvântul de vizualizare care numește fiecare listă și fiecare temă care vrea să pară de-a casei."
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| Format | Fișiere |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## Utilizare"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## Set de caractere"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## Previzualizare"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## Construire"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## Descărcare"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "Literele iau drept model inscripția logo-ului PS2: o singură linie subțire și uniformă, colțuri drepte, litere făcute din bare orizontale și verticale pe o grilă, și formele deschise ale logo-ului însuși (P fără tijă deasupra burții, 2 în zigzag). Sunt înguste, astfel încât un rând întreg de indicii de butoane încape pe un ecran de 640 de pixeli."
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "De la [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), sau direct din acest depozit:"
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**Într-o temă RIPPS2** fonturile sunt deja în `RIPPS2.elf`; numește-le și nu trimite nimic:"
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- Instrumentele: [MIT](LICENSE-MIT)."
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**Pe web:**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**Pe PC:** instalează fișierele TTF ca de obicei. Regular și Bold sunt o singură familie, *RIPPS2 Sleek*; Bold Case este o familie separată, *RIPPS2 Sleek Case* (Bold), ca să nu se încurce niciodată."
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "Fiecare glifă este un set de linii frânte pe o grilă înaltă de șase unități (înălțimea majusculelor); fiecare primește o linie, iar liniile sunt unite într-un singur contur curat. Desenul se află în [tools/make_sleek_font.py](tools/make_sleek_font.py) (același fișier din care RIPPS2 își construiește copiile); [tools/build.py](tools/build.py) face din el tot ce este aici și dă fonturilor numele și grosimile pe care le citesc aplicațiile și browserele (RIPPS2 citește doar contururile)."
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## Licență"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | linie groasă | minuscule adevărate | text tastat, tastatura de pe ecran, descrieri |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "Nu este aici: Planet N Compact, fontul principal de text al RIPPS2, aparține [Iconian Fonts](https://www.iconian.com) și rămâne al lor; RIPPS2 One, un petic de o glifă pentru cifra 1, merge cu el."
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | linie subțire | majuscule (minusculele apar ca majuscule) | indicii, meniuri, setări, numele sursei |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}

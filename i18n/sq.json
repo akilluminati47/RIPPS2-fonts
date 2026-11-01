@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| Prerja | Trashësia | Shkronja | Në RIPPS2 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "[RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) është shtypur tërësisht me to. Çdo temë tjetër e familjes OPL mund t’i përdorë TTF-të nga dosja e vet si çdo shkronjë."
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Latinishtja bazë, Latin-1 dhe Latinishtja e zgjeruar A/B: 337 pika kodi në çdo prerje. Për tani shkronjat me theks vizatohen si shkronja e tyre bazë. Lista e plotë: [docs/charset.md](docs/charset.md)."
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- Shkronjat: [SIL Open Font License 1.1](LICENSE-OFL). Përdorini, përfshijini, ndryshojini; një shkronjë e ndryshuar merr emër të ri."
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2 (web) | [fonts/woff2](fonts/woff2): të njëjtat tre |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | vijë e trashë | të mëdha | etiketa pranë glifeve të mëdha, fjala e pamjes, rreshti i versionit |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "Shkronja e vizatuar për [RIPPS2](https://github.com/akilluminati47/RIPPS2), front end-in e PS2: menytë e tij, këshillat e butonave, cilësimet, fjala e pamjes që emërton çdo listë, dhe çdo temë që do të duket e shtëpisë."
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| Formati | Skedarët |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## Përdorimi"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## Grupi i shkronjave"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## Parapamje"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## Ndërtimi"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## Shkarko"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "Shkronjat marrin si model mbishkrimin e logos së PS2: një vijë e hollë dhe e njëtrajtshme, qoshe katrore, shkronja të ndërtuara nga shufra horizontale dhe vertikale mbi një rrjetë, dhe format e hapura të vetë logos (P-ja pa trup mbi barkun, 2-shi zigzag). Janë të ngushta, ndaj një rresht i plotë këshillash butonash nxë në një ekran 640 piksel."
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "Nga [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ose drejtpërdrejt nga ky depo:"
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**Në një temë RIPPS2** shkronjat janë tashmë brenda `RIPPS2.elf`; thjesht emërtoji, pa dërguar asgjë:"
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- Mjetet: [MIT](LICENSE-MIT)."
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**Në ueb:**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**Në kompjuter:** instaloji TTF-të si zakonisht. Regular dhe Bold janë një familje, *RIPPS2 Sleek*; Bold Case është familje më vete, *RIPPS2 Sleek Case* (Bold), që të mos përplasen kurrë."
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "Çdo glif është një grup vijash të thyera mbi një rrjetë gjashtë njësi të lartë (lartësia e shkronjave të mëdha); secila merr një vijë dhe vijat bashkohen në një kontur të vetëm e të pastër. Vizatimi ndodhet në [tools/make_sleek_font.py](tools/make_sleek_font.py) (i njëjti skedar nga i cili RIPPS2 ndërton kopjet e veta); [tools/build.py](tools/build.py) bën prej tij gjithçka këtu dhe u jep shkronjave emrat dhe trashësitë që lexojnë programet dhe shfletuesit (RIPPS2 lexon vetëm konturet)."
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## Licenca"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | vijë e trashë | të vogla të vërteta | tekst i shtypur, tastiera në ekran, përshkrime |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "Nuk është këtu: Planet N Compact, shkronja kryesore e tekstit të RIPPS2, është e [Iconian Fonts](https://www.iconian.com) dhe mbetet e tyre; RIPPS2 One, një arnë me një glif për 1-shin e saj, shkon me të."
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | vijë e hollë | të mëdha (të voglat vizatohen si të mëdha) | këshilla, menytë, cilësimet, emri i burimit |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}

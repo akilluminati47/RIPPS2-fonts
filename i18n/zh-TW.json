@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| 字重款式 | 粗細 | 大小寫 | 在 RIPPS2 中 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "[RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) 完全用它們排版。OPL 系列的任何其他主題都可以像使用其他字型一樣，從自己的資料夾使用這些 TTF。"
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Basic Latin、Latin-1 和 Latin Extended-A/B：每款 337 個碼位。帶重音的字母目前畫作其基本字母。完整列表：[docs/charset.md](docs/charset.md)。"
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- 字型：[SIL Open Font License 1.1](LICENSE-OFL)。可以使用、打包、修改；修改後的字型要換新名字。"
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2（網頁） | [fonts/woff2](fonts/woff2)：同樣三個 |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | 粗筆畫 | 大寫 | 大字形旁的標籤、檢視詞、版本行 |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "為 PS2 前端 [RIPPS2](https://github.com/akilluminati47/RIPPS2) 繪製的字型：用於它的選單、按鍵提示、設定、為每個清單命名的檢視詞，以及每個想要融入其中的主題。"
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| 格式 | 檔案 |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## 使用"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## 字元集"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## 預覽"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## 建置"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## 下載"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "字母以 PS2 標誌的字樣為藍本：一根纖細均勻的筆畫、方正的轉角、在網格上由橫豎筆條搭成的字母，以及標誌本身的開放字形（碗形上方沒有豎幹的 P、鋸齒形的 2）。字形窄，所以一整行按鍵提示能放進 640 像素的螢幕。"
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "從 [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases) 下載，或直接從本儲存庫取得："
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**在 RIPPS2 主題中**，字型已經在 `RIPPS2.elf` 裡；寫上名字即可，什麼都不用附帶："
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- 工具：[MIT](LICENSE-MIT)。"
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**在網頁上：**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**在電腦上：**照常安裝 TTF。Regular 和 Bold 屬於同一字族 *RIPPS2 Sleek*；Bold Case 是獨立字族 *RIPPS2 Sleek Case*（Bold），所以兩者不會衝突。"
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "每個字形都是高六個單位（大寫高度）的網格上的一組折線；每條折線描上筆畫，再把筆畫合併成一條乾淨的輪廓。繪製程式在 [tools/make_sleek_font.py](tools/make_sleek_font.py)（RIPPS2 產生自己副本的同一個檔案）；[tools/build.py](tools/build.py) 用它產生這裡的一切，並為字型寫入桌面程式和瀏覽器讀取的名稱與字重（RIPPS2 自己只讀取輪廓）。"
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## 授權"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | 粗筆畫 | 真正的小寫 | 輸入的文字、螢幕鍵盤、說明 |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "不在這裡：RIPPS2 的主要內文字型 Planet N Compact 屬於 [Iconian Fonts](https://www.iconian.com)，仍歸他們所有；為其數字 1 打的單字形修補 RIPPS2 One 與它同屬。"
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | 細筆畫 | 大寫（小寫也畫成大寫） | 提示、選單、設定、來源名稱 |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}

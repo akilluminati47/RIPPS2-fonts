@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| Corte | Grosor | Caja | En RIPPS2 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "[RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) está compuesto entero con ellas. Cualquier otro tema de la familia OPL puede usar los TTF desde su propia carpeta como cualquier fuente."
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Latín básico, Latin-1 y Latín Extendido-A/B: 337 puntos de código en cada corte. Por ahora las letras acentuadas se dibujan como su letra base. La lista completa: [docs/charset.md](docs/charset.md)."
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- Las fuentes: [SIL Open Font License 1.1](LICENSE-OFL). Úsalas, inclúyelas, modifícalas; una fuente modificada lleva un nombre nuevo."
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2 (web) | [fonts/woff2](fonts/woff2): los mismos tres |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | trazo grueso | mayúsculas | etiquetas junto a glifos grandes, la palabra de vista, la línea de versión |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "El tipo de letra dibujado para [RIPPS2](https://github.com/akilluminati47/RIPPS2), el front end de PS2: sus menús, las pistas de botones, los ajustes, la palabra de vista que nombra cada lista y cada tema que quiera parecer de la casa."
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| Formato | Archivos |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## Uso"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## Juego de caracteres"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## Vista previa"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## Compilación"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## Descarga"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "Las letras toman como modelo las del logotipo de PS2: un trazo fino y uniforme, esquinas rectas, letras hechas de barras horizontales y verticales sobre una cuadrícula, y las formas abiertas del propio logotipo (la P sin asta sobre su panza, el 2 en zigzag). Son estrechas, así que una fila entera de pistas de botones cabe en una pantalla de 640 píxeles."
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "Desde [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), o directamente de este repositorio:"
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**En un tema de RIPPS2** las fuentes ya están dentro de `RIPPS2.elf`; nómbralas y no envíes nada:"
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- Las herramientas: [MIT](LICENSE-MIT)."
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**En la web:**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**En un PC:** instala los TTF como siempre. Regular y Bold son una familia, *RIPPS2 Sleek*; Bold Case es una familia aparte, *RIPPS2 Sleek Case* (Bold), así que nunca chocan."
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "Cada glifo es un conjunto de polilíneas sobre una cuadrícula de seis unidades de alto (la altura de mayúsculas); cada una se traza y los trazos se unen en un único contorno limpio. El dibujo vive en [tools/make_sleek_font.py](tools/make_sleek_font.py) (el mismo archivo del que RIPPS2 construye sus copias); [tools/build.py](tools/build.py) hace todo lo de aquí a partir de él y da a las fuentes los nombres y grosores que leen las aplicaciones de escritorio y los navegadores (RIPPS2 solo lee los contornos)."
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## Licencia"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | trazo grueso | minúsculas de verdad | texto escrito, el teclado en pantalla, descripciones |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "No está aquí: Planet N Compact, el tipo de texto principal de RIPPS2, es de [Iconian Fonts](https://www.iconian.com) y sigue siendo suyo; RIPPS2 One, un parche de un solo glifo para su 1, va con él."
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | trazo fino | mayúsculas (las minúsculas se dibujan como mayúsculas) | pistas, menús, ajustes, el nombre de la fuente |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}

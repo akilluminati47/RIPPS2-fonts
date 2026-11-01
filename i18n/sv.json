@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| Snitt | Vikt | Skiftläge | I RIPPS2 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "[RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) är helt satt i dem. Alla andra teman i OPL-familjen kan använda TTF-filerna från sin egen mapp som vilket typsnitt som helst."
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Grundläggande latin, Latin-1 och Utökad latin A/B: 337 kodpunkter i varje snitt. Bokstäver med accent ritas tills vidare som sin grundbokstav. Hela listan: [docs/charset.md](docs/charset.md)."
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- Typsnitten: [SIL Open Font License 1.1](LICENSE-OFL). Använd dem, packa med dem, ändra dem; ett ändrat typsnitt får ett nytt namn."
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2 (webb) | [fonts/woff2](fonts/woff2): samma tre |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | kraftigt streck | versaler | etiketter bredvid stora glyfer, visningsordet, versionsraden |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "Typsnittet ritat för [RIPPS2](https://github.com/akilluminati47/RIPPS2), PS2-frontenden: dess menyer, knapptips, inställningar, visningsordet som namnger varje lista och varje tema som vill se ut att höra till."
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| Format | Filer |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## Användning"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## Teckenuppsättning"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## Förhandsvisning"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## Bygga"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## Ladda ner"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "Bokstäverna har PS2-logotypens text som förebild: ett tunt, jämnt streck, fyrkantiga hörn, bokstäver byggda av vågräta och lodräta staplar på ett rutnät, och logotypens egna öppna former (P:et utan stam ovanför bågen, sicksack-tvåan). De är smala, så en hel rad knapptips får plats på en skärm på 640 pixlar."
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "Från [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), eller direkt från det här repot:"
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**I ett RIPPS2-tema** finns typsnitten redan i `RIPPS2.elf`; ange dem och skicka inget med:"
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- Verktygen: [MIT](LICENSE-MIT)."
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**På webben:**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**På en dator:** installera TTF-filerna som vanligt. Regular och Bold är en familj, *RIPPS2 Sleek*; Bold Case är en egen familj, *RIPPS2 Sleek Case* (Bold), så att de två aldrig krockar."
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "Varje glyf är en uppsättning polylinjer på ett rutnät sex enheter högt (versalhöjden); var och en får ett streck och strecken slås ihop till en enda ren kontur. Ritningen finns i [tools/make_sleek_font.py](tools/make_sleek_font.py) (samma fil som RIPPS2 bygger sina kopior från); [tools/build.py](tools/build.py) gör allt här utifrån den och ger typsnitten de namn och vikter som skrivbordsprogram och webbläsare läser (RIPPS2 läser bara konturerna)."
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## Licens"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | kraftigt streck | äkta gemener | inskriven text, skärmtangentbordet, beskrivningar |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "Inte här: Planet N Compact, RIPPS2:s huvudsakliga textsnitt, tillhör [Iconian Fonts](https://www.iconian.com) och förblir deras; RIPPS2 One, en lapp på en glyf för dess 1:a, hör till det."
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | tunt streck | versaler (gemener ritas som versaler) | tips, menyer, inställningar, källans namn |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}

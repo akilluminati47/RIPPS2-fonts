@@ -1,0 +1,118 @@
+{
+ "0490038ba0b8": {
+  "en": "0490038ba0b8",
+  "t": "# RIPPS2 Sleek"
+ },
+ "05f2c973c9c1": {
+  "en": "05f2c973c9c1",
+  "t": "| Cut | Kapal | Laki ng titik | Sa RIPPS2 |"
+ },
+ "1b279fa9c98b": {
+  "en": "1b279fa9c98b",
+  "t": "Ang [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) ay buong isinulat gamit ang mga ito. Anumang ibang tema sa pamilya ng OPL ay puwedeng gumamit ng mga TTF mula sa sarili nitong folder tulad ng anumang font."
+ },
+ "1c6f7781ab12": {
+  "en": "1c6f7781ab12",
+  "t": "Basic Latin, Latin-1 at Latin Extended-A/B: 337 code point sa bawat cut. Sa ngayon, iginuguhit ang mga titik na may tuldik bilang kanilang batayang titik. Ang buong listahan: [docs/charset.md](docs/charset.md)."
+ },
+ "3663904fb567": {
+  "en": "3663904fb567",
+  "t": "- Ang mga font: [SIL Open Font License 1.1](LICENSE-OFL). Gamitin, isama, baguhin; ang binagong font ay may bagong pangalan."
+ },
+ "41d052085f24": {
+  "en": "41d052085f24",
+  "t": "| TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |"
+ },
+ "440d58526979": {
+  "en": "440d58526979",
+  "t": "| WOFF2 (web) | [fonts/woff2](fonts/woff2): ang parehong tatlo |"
+ },
+ "5b65d5f8b2c7": {
+  "en": "5b65d5f8b2c7",
+  "t": "| **Bold** | makapal na guhit | malalaking titik | mga label sa tabi ng malalaking glyph, ang salita ng view, ang linya ng release |"
+ },
+ "62e077923d67": {
+  "en": "62e077923d67",
+  "t": "### Bold Case"
+ },
+ "6504d5a9ab93": {
+  "en": "6504d5a9ab93",
+  "t": "Ang typeface na iginuhit para sa [RIPPS2](https://github.com/akilluminati47/RIPPS2), ang front end ng PS2: ang mga menu nito, mga hint ng button, mga setting, ang salita ng view na nagpapangalan sa bawat listahan, at bawat tema na gustong magmukhang kabilang dito."
+ },
+ "673f02384628": {
+  "en": "673f02384628",
+  "t": "| Format | Mga file |"
+ },
+ "82effc9b4e59": {
+  "en": "82effc9b4e59",
+  "t": "## Paggamit"
+ },
+ "8b9ed407e0d8": {
+  "en": "8b9ed407e0d8",
+  "t": "## Set ng mga character"
+ },
+ "8cd462237517": {
+  "en": "8cd462237517",
+  "t": "## Silip"
+ },
+ "8d172e8849aa": {
+  "en": "8d172e8849aa",
+  "t": "## Pagbuo"
+ },
+ "a0e1ccb99d8a": {
+  "en": "a0e1ccb99d8a",
+  "t": "## I-download"
+ },
+ "a39f99787b11": {
+  "en": "a39f99787b11",
+  "t": "Ang mga titik ay ginaya sa sulat ng logo ng PS2: isang manipis at pantay na guhit, kuwadradong mga sulok, mga titik na binuo mula sa pahalang at patayong mga bar sa isang grid, at ang mga bukas na hugis ng logo mismo (ang P na walang tangkay sa ibabaw ng tiyan nito, ang zigzag na 2). Makikitid ang mga ito, kaya kasya ang isang buong hanay ng mga hint ng button sa screen na 640 pixel."
+ },
+ "a441eec3d13a": {
+  "en": "a441eec3d13a",
+  "t": "Mula sa [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), o direkta mula sa repo na ito:"
+ },
+ "a646873227b1": {
+  "en": "a646873227b1",
+  "t": "**Sa isang tema ng RIPPS2** nasa loob na ng `RIPPS2.elf` ang mga font; pangalanan lang ang mga ito at walang ipapadala:"
+ },
+ "ae40e604a32b": {
+  "en": "ae40e604a32b",
+  "t": "- Ang mga tool: [MIT](LICENSE-MIT)."
+ },
+ "c6a6ab966c36": {
+  "en": "c6a6ab966c36",
+  "t": "**Sa web:**"
+ },
+ "c809c2a492d8": {
+  "en": "c809c2a492d8",
+  "t": "### Regular"
+ },
+ "c8afac5790f0": {
+  "en": "c8afac5790f0",
+  "t": "**Sa PC:** i-install ang mga TTF gaya ng dati. Ang Regular at Bold ay iisang pamilya, *RIPPS2 Sleek*; ang Bold Case ay sariling pamilya, *RIPPS2 Sleek Case* (Bold), kaya hindi sila nagbabanggaan."
+ },
+ "c967242de0c1": {
+  "en": "c967242de0c1",
+  "t": "Bawat glyph ay isang hanay ng mga polyline sa isang grid na anim na unit ang taas (ang taas ng malaking titik); bawat isa ay ginuguhitan at pinagsasama ang mga guhit sa iisang malinis na balangkas. Ang guhit ay nasa [tools/make_sleek_font.py](tools/make_sleek_font.py) (ang parehong file na pinagmumulan ng mga kopya ng RIPPS2); ang [tools/build.py](tools/build.py) ang gumagawa ng lahat ng narito mula roon at nagbibigay sa mga font ng mga pangalan at kapal na binabasa ng mga desktop app at browser (balangkas lang ang binabasa ng RIPPS2)."
+ },
+ "cf503560f03e": {
+  "en": "cf503560f03e",
+  "t": "## Lisensya"
+ },
+ "df19ce4bb017": {
+  "en": "df19ce4bb017",
+  "t": "| **Bold Case** | makapal na guhit | tunay na maliliit na titik | tinipang teksto, ang on-screen keyboard, mga paglalarawan |"
+ },
+ "f74efa3e6207": {
+  "en": "f74efa3e6207",
+  "t": "Wala rito: ang Planet N Compact, ang pangunahing typeface ng teksto ng RIPPS2, ay pag-aari ng [Iconian Fonts](https://www.iconian.com) at nananatiling kanila; ang RIPPS2 One, isang tagpi na iisang glyph para sa 1 nito, ay kasama nito."
+ },
+ "f932d19ef670": {
+  "en": "f932d19ef670",
+  "t": "| **Regular** | manipis na guhit | malalaking titik (ang maliliit ay iginuguhit na malaki) | mga hint, menu, setting, ang pangalan ng source |"
+ },
+ "feecb25b5a3c": {
+  "en": "feecb25b5a3c",
+  "t": "### Bold"
+ }
+}
