@@ -59,6 +59,8 @@ As letras têm como modelo o letreiro do logotipo do PS2: um traço fino e unifo
 | **Bold** | traço grosso | maiúsculas | rótulos ao lado de glifos grandes, a palavra de exibição, a linha da versão |
 | **Bold Case** | traço grosso | minúsculas de verdade | texto digitado, o teclado na tela, descrições |
 
+<a id="preview"></a>
+
 ## Prévia
 
 ### Regular
@@ -73,6 +75,8 @@ As letras têm como modelo o letreiro do logotipo do PS2: um traço fino e unifo
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Conjunto de caracteres
 
 Latim básico, Latin-1 e Latim Estendido-A/B: 337 pontos de código em cada corte. Por enquanto, letras acentuadas aparecem como a letra base. A lista completa: [docs/charset.md](docs/charset.md).
@@ -85,6 +89,8 @@ Pelos [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ou di
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): os mesmos três |
+
+<a id="use"></a>
 
 ## Uso
 
@@ -108,6 +114,8 @@ O [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) é todo composto co
 
 **No PC:** instale os TTF como de costume. Regular e Bold são uma família, *RIPPS2 Sleek*; Bold Case é uma família própria, *RIPPS2 Sleek Case* (Bold), então as duas nunca se misturam.
 
+<a id="build"></a>
+
 ## Compilação
 
 Cada glifo é um conjunto de polilinhas numa grade de seis unidades de altura (a altura das maiúsculas); cada uma recebe um traço e os traços se unem num único contorno limpo. O desenho está em [tools/make_sleek_font.py](tools/make_sleek_font.py) (o mesmo arquivo de onde o RIPPS2 gera suas cópias); [tools/build.py](tools/build.py) gera tudo daqui a partir dele e dá às fontes os nomes e pesos que apps de desktop e navegadores leem (o RIPPS2 lê só os contornos).
@@ -116,6 +124,8 @@ Cada glifo é um conjunto de polilinhas numa grade de seis unidades de altura (a
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licença
 

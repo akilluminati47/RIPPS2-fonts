@@ -59,6 +59,8 @@ Le lettere prendono a modello la scritta del logo PS2: un tratto sottile e unifo
 | **Bold** | tratto spesso | maiuscole | etichette accanto ai glifi grandi, la parola di vista, la riga della versione |
 | **Bold Case** | tratto spesso | vere minuscole | testo digitato, la tastiera su schermo, descrizioni |
 
+<a id="preview"></a>
+
 ## Anteprima
 
 ### Regular
@@ -73,6 +75,8 @@ Le lettere prendono a modello la scritta del logo PS2: un tratto sottile e unifo
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Set di caratteri
 
 Latino di base, Latin-1 e Latino esteso A/B: 337 punti di codice in ogni taglio. Per ora le lettere accentate si vedono come la loro lettera base. L’elenco completo: [docs/charset.md](docs/charset.md).
@@ -85,6 +89,8 @@ Dalle [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), o dir
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): gli stessi tre |
+
+<a id="use"></a>
 
 ## Uso
 
@@ -108,6 +114,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Su PC:** installa i TTF come al solito. Regular e Bold sono una famiglia, *RIPPS2 Sleek*; Bold Case è una famiglia a sé, *RIPPS2 Sleek Case* (Bold), così non si scontrano mai.
 
+<a id="build"></a>
+
 ## Compilazione
 
 Ogni glifo è un insieme di polilinee su una griglia alta sei unità (l’altezza delle maiuscole); ognuna viene tracciata e i tratti uniti in un solo contorno pulito. Il disegno si trova in [tools/make_sleek_font.py](tools/make_sleek_font.py) (lo stesso file da cui RIPPS2 crea le sue copie); [tools/build.py](tools/build.py) ne ricava tutto quello che c’è qui e dà ai font i nomi e i pesi che leggono le applicazioni desktop e i browser (RIPPS2 legge solo i contorni).
@@ -116,6 +124,8 @@ Ogni glifo è un insieme di polilinee su una griglia alta sei unità (l’altezz
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licenza
 

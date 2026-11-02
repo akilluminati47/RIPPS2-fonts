@@ -59,6 +59,8 @@ Les lettres prennent pour modèle le lettrage du logo PS2 : un trait fin et rég
 | **Bold** | trait épais | capitales | libellés à côté des grands glyphes, le mot de vue, la ligne de version |
 | **Bold Case** | trait épais | de vraies minuscules | texte saisi, le clavier à l’écran, les descriptions |
 
+<a id="preview"></a>
+
 ## Aperçu
 
 ### Regular
@@ -73,9 +75,13 @@ Les lettres prennent pour modèle le lettrage du logo PS2 : un trait fin et rég
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Jeu de caractères
 
 Latin de base, Latin-1 et Latin étendu A/B : 337 points de code dans chaque coupe. Pour l’instant, les lettres accentuées s’affichent comme leur lettre de base. La liste complète : [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Téléchargement
 
@@ -85,6 +91,8 @@ Depuis les [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), 
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2) : les trois mêmes |
+
+<a id="use"></a>
 
 ## Utilisation
 
@@ -107,6 +115,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 ```
 
 **Sur PC :** installez les TTF comme d’habitude. Regular et Bold forment une famille, *RIPPS2 Sleek* ; Bold Case est une famille à part, *RIPPS2 Sleek Case* (Bold), pour qu’elles ne se gênent jamais.
+
+<a id="build"></a>
 
 ## Construction
 

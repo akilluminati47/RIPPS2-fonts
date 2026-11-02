@@ -59,6 +59,8 @@ PS2 프런트엔드 [RIPPS2](https://github.com/akilluminati47/RIPPS2)를 위해
 | **Bold** | 굵은 획 | 대문자 | 큰 글리프 옆의 라벨, 보기 단어, 릴리스 줄 |
 | **Bold Case** | 굵은 획 | 진짜 소문자 | 입력한 글, 화면 키보드, 설명 |
 
+<a id="preview"></a>
+
 ## 미리 보기
 
 ### Regular
@@ -73,9 +75,13 @@ PS2 프런트엔드 [RIPPS2](https://github.com/akilluminati47/RIPPS2)를 위해
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## 문자 집합
 
 Basic Latin, Latin-1, Latin Extended-A/B: 컷마다 337개 코드 포인트. 악센트가 붙은 글자는 당분간 기본 글자로 그립니다. 전체 목록: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## 다운로드
 
@@ -85,6 +91,8 @@ Basic Latin, Latin-1, Latin Extended-A/B: 컷마다 337개 코드 포인트. 악
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (웹) | [fonts/woff2](fonts/woff2): 같은 세 개 |
+
+<a id="use"></a>
 
 ## 사용법
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **PC에서:** 평소처럼 TTF를 설치합니다. Regular와 Bold는 한 패밀리 *RIPPS2 Sleek*, Bold Case는 별도 패밀리 *RIPPS2 Sleek Case*(Bold)라서 서로 부딪히지 않습니다.
 
+<a id="build"></a>
+
 ## 빌드
 
 모든 글리프는 높이 6단위(대문자 높이) 격자 위의 꺾은선 묶음이며, 각각 획을 입힌 뒤 하나의 깔끔한 윤곽으로 합칩니다. 그림은 [tools/make_sleek_font.py](tools/make_sleek_font.py)(RIPPS2가 자기 사본을 만드는 바로 그 파일)에 있고, [tools/build.py](tools/build.py)가 여기 있는 모든 것을 그것으로 만들고 데스크톱 앱과 브라우저가 읽는 이름과 굵기를 글꼴에 붙입니다(RIPPS2 자체는 윤곽만 읽습니다).
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## 라이선스
 

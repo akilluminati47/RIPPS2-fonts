@@ -59,6 +59,8 @@
 | **Bold** | 粗笔画 | 大写 | 大字形旁的标签、视图词、版本行 |
 | **Bold Case** | 粗笔画 | 真正的小写 | 输入的文字、屏幕键盘、说明 |
 
+<a id="preview"></a>
+
 ## 预览
 
 ### Regular
@@ -73,9 +75,13 @@
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## 字符集
 
 Basic Latin、Latin-1 和 Latin Extended-A/B：每款 337 个码位。带重音的字母目前画作其基本字母。完整列表：[docs/charset.md](docs/charset.md)。
+
+<a id="download"></a>
 
 ## 下载
 
@@ -85,6 +91,8 @@ Basic Latin、Latin-1 和 Latin Extended-A/B：每款 337 个码位。带重音�
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2（网页） | [fonts/woff2](fonts/woff2)：同样三个 |
+
+<a id="use"></a>
 
 ## 使用
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **在电脑上：**照常安装 TTF。Regular 和 Bold 属于同一字族 *RIPPS2 Sleek*；Bold Case 是独立字族 *RIPPS2 Sleek Case*（Bold），所以两者不会冲突。
 
+<a id="build"></a>
+
 ## 构建
 
 每个字形都是高六个单位（大写高度）的网格上的一组折线；每条折线描上笔画，再把笔画合并成一条干净的轮廓。绘制代码在 [tools/make_sleek_font.py](tools/make_sleek_font.py)（RIPPS2 生成自己副本的同一个文件）；[tools/build.py](tools/build.py) 用它生成这里的一切，并为字体写入桌面程序和浏览器读取的名称与字重（RIPPS2 自己只读取轮廓）。
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## 许可
 

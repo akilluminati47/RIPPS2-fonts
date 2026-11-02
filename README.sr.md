@@ -59,6 +59,8 @@ Slova uzimaju natpis loga PS2 za uzor: jedan tanak, ujednačen potez, četvrtast
 | **Bold** | debeo potez | velika slova | oznake pored velikih glifova, reč prikaza, red verzije |
 | **Bold Case** | debeo potez | prava mala slova | ukucani tekst, tastatura na ekranu, opisi |
 
+<a id="preview"></a>
+
 ## Pregled
 
 ### Regular
@@ -73,9 +75,13 @@ Slova uzimaju natpis loga PS2 za uzor: jedan tanak, ujednačen potez, četvrtast
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Skup znakova
 
 Osnovna latinica, Latin-1 i Proširena latinica A/B: 337 kodnih tačaka u svakom rezu. Slova sa akcentima se zasad crtaju kao osnovno slovo. Cela lista: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Preuzimanje
 
@@ -85,6 +91,8 @@ Sa [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ili dire
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (veb) | [fonts/woff2](fonts/woff2): ista tri |
+
+<a id="use"></a>
 
 ## Upotreba
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Na računaru:** instalirajte TTF datoteke kao i obično. Regular i Bold su jedna porodica, *RIPPS2 Sleek*; Bold Case je zasebna porodica, *RIPPS2 Sleek Case* (Bold), pa se dve nikad ne sudaraju.
 
+<a id="build"></a>
+
 ## Izrada
 
 Svaki glif je skup izlomljenih linija na mreži visokoj šest jedinica (visina velikih slova); svaka dobija potez, a potezi se spajaju u jedan čist obris. Crtež je u [tools/make_sleek_font.py](tools/make_sleek_font.py) (istoj datoteci iz koje RIPPS2 pravi svoje kopije); [tools/build.py](tools/build.py) iz nje pravi sve ovde i daje fontovima imena i debljine koje čitaju desktop programi i pregledači (sam RIPPS2 čita samo obrise).
@@ -116,6 +126,8 @@ Svaki glif je skup izlomljenih linija na mreži visokoj šest jedinica (visina v
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licenca
 

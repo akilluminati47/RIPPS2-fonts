@@ -61,6 +61,8 @@
 | **Bold** | خط ضخیم | حروف بزرگ | برچسب‌های کنار نشانه‌های بزرگ، واژهٔ نمایش، سطر نسخه |
 | **Bold Case** | خط ضخیم | حروف کوچک واقعی | متن تایپ‌شده، صفحه‌کلید روی صفحه، توضیحات |
 
+<a id="preview"></a>
+
 ## پیش‌نمایش
 
 ### Regular
@@ -75,9 +77,13 @@
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## مجموعهٔ نویسه‌ها
 
 لاتین پایه، Latin-1 و لاتین گسترده A/B: ‏۳۳۷ نقطهٔ کد در هر برش. فعلاً حروف تکیه‌دار به شکل حرف پایه‌شان کشیده می‌شوند. فهرست کامل: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## دانلود
 
@@ -87,6 +93,8 @@
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (وب) | [fonts/woff2](fonts/woff2): همان سه |
+
+<a id="use"></a>
 
 ## استفاده
 
@@ -110,6 +118,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **روی رایانه:** فایل‌های TTF را مثل همیشه نصب کنید. Regular و Bold یک خانواده‌اند، *RIPPS2 Sleek*؛ Bold Case خانوادهٔ جدایی است، *RIPPS2 Sleek Case* (Bold)، تا هرگز با هم تداخل نکنند.
 
+<a id="build"></a>
+
 ## ساخت
 
 هر نشانه مجموعه‌ای از خط‌های شکسته روی شبکه‌ای به بلندی شش واحد (بلندی حروف بزرگ) است؛ هر کدام خط می‌خورد و خط‌ها در یک دورگیر تمیز یکی می‌شوند. نقشه در [tools/make_sleek_font.py](tools/make_sleek_font.py) است (همان فایلی که RIPPS2 نسخه‌های خود را از آن می‌سازد)؛ [tools/build.py](tools/build.py) همه‌چیز این‌جا را از آن می‌سازد و به قلم‌ها نام‌ها و ضخامت‌هایی می‌دهد که برنامه‌های رومیزی و مرورگرها می‌خوانند (خود RIPPS2 فقط دورگیرها را می‌خواند).
@@ -118,6 +128,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## مجوز
 

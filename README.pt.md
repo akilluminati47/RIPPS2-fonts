@@ -59,6 +59,8 @@ As letras tomam como modelo o letreiro do logótipo da PS2: um traço fino e uni
 | **Bold** | traço grosso | maiúsculas | etiquetas junto a glifos grandes, a palavra de vista, a linha da versão |
 | **Bold Case** | traço grosso | minúsculas verdadeiras | texto escrito, o teclado no ecrã, descrições |
 
+<a id="preview"></a>
+
 ## Pré-visualização
 
 ### Regular
@@ -73,9 +75,13 @@ As letras tomam como modelo o letreiro do logótipo da PS2: um traço fino e uni
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Conjunto de caracteres
 
 Latim básico, Latin-1 e Latim Estendido-A/B: 337 pontos de código em cada corte. Por agora as letras acentuadas surgem como a letra base. A lista completa: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Transferir
 
@@ -85,6 +91,8 @@ Nos [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ou dire
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): os mesmos três |
+
+<a id="use"></a>
 
 ## Utilização
 
@@ -108,6 +116,8 @@ O [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) está todo composto
 
 **Num PC:** instale os TTF como habitualmente. Regular e Bold são uma família, *RIPPS2 Sleek*; Bold Case é uma família à parte, *RIPPS2 Sleek Case* (Bold), por isso nunca colidem.
 
+<a id="build"></a>
+
 ## Compilação
 
 Cada glifo é um conjunto de polilinhas numa grelha com seis unidades de altura (a altura das maiúsculas); cada uma é traçada e os traços unem-se num único contorno limpo. O desenho está em [tools/make_sleek_font.py](tools/make_sleek_font.py) (o mesmo ficheiro de onde o RIPPS2 cria as suas cópias); [tools/build.py](tools/build.py) faz tudo o que está aqui a partir dele e dá aos tipos de letra os nomes e pesos que as aplicações e os navegadores leem (o RIPPS2 lê apenas os contornos).
@@ -116,6 +126,8 @@ Cada glifo é um conjunto de polilinhas numa grelha com seis unidades de altura 
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licença
 

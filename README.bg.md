@@ -59,6 +59,8 @@
 | **Bold** | дебела линия | главни букви | етикети до големи глифове, думата на изгледа, реда на версията |
 | **Bold Case** | дебела линия | истински малки букви | въведен текст, екранната клавиатура, описания |
 
+<a id="preview"></a>
+
 ## Преглед
 
 ### Regular
@@ -73,9 +75,13 @@
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Набор от знаци
 
 Основна латиница, Latin-1 и Разширена латиница A/B: 337 кодови точки във всяко начертание. Засега буквите с ударения се изписват като основната си буква. Пълният списък: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Изтегляне
 
@@ -85,6 +91,8 @@
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (уеб) | [fonts/woff2](fonts/woff2): същите три |
+
+<a id="use"></a>
 
 ## Употреба
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **На компютър:** инсталирайте TTF файловете както обикновено. Regular и Bold са едно семейство, *RIPPS2 Sleek*; Bold Case е отделно семейство, *RIPPS2 Sleek Case* (Bold), така че двете никога не се сблъскват.
 
+<a id="build"></a>
+
 ## Изграждане
 
 Всеки глиф е набор от начупени линии върху мрежа, висока шест единици (височината на главните букви); всяка получава щрих и щрихите се сливат в един чист контур. Рисунката е в [tools/make_sleek_font.py](tools/make_sleek_font.py) (същия файл, от който RIPPS2 изгражда своите копия); [tools/build.py](tools/build.py) прави всичко тук от него и дава на шрифтовете имената и дебелините, които четат настолните програми и браузърите (самият RIPPS2 чете само контурите).
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Лиценз
 

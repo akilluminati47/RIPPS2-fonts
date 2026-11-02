@@ -59,6 +59,8 @@ Ang mga letra mosunod sa sinulat sa logo sa PS2: usa ka nipis ug patas nga linya
 | **Bold** | baga nga linya | dagkong letra | mga label tupad sa dagkong glyph, ang pulong sa view, ang linya sa release |
 | **Bold Case** | baga nga linya | tinuod nga gagmay nga letra | gi-type nga teksto, ang keyboard sa screen, mga paghulagway |
 
+<a id="preview"></a>
+
 ## Silip
 
 ### Regular
@@ -73,9 +75,13 @@ Ang mga letra mosunod sa sinulat sa logo sa PS2: usa ka nipis ug patas nga linya
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Set sa mga karakter
 
 Basic Latin, Latin-1 ug Latin Extended-A/B: 337 ka code point sa matag cut. Sa pagkakaron, ang mga letra nga may tuldik gidrowing ingon nga ilang batakang letra. Ang tibuok lista: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## I-download
 
@@ -85,6 +91,8 @@ Gikan sa [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), o 
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): ang samang tulo |
+
+<a id="use"></a>
 
 ## Paggamit
 
@@ -108,6 +116,8 @@ Ang [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) tibuok nga gisula
 
 **Sa PC:** i-install ang mga TTF sama sa naandan. Ang Regular ug Bold usa ka pamilya, *RIPPS2 Sleek*; ang Bold Case kaugalingong pamilya, *RIPPS2 Sleek Case* (Bold), aron dili sila magbangga.
 
+<a id="build"></a>
+
 ## Paghimo
 
 Ang matag glyph usa ka hugpong sa mga polyline sa usa ka grid nga unom ka unit ang gitas-on (ang gitas-on sa dagkong letra); ang matag usa gihatagan og linya ug ang mga linya gihiusa ngadto sa usa ka limpyo nga outline. Ang drowing anaa sa [tools/make_sleek_font.py](tools/make_sleek_font.py) (ang samang file nga gigikanan sa mga kopya sa RIPPS2); ang [tools/build.py](tools/build.py) maghimo sa tanan dinhi gikan niini ug mohatag sa mga font og mga ngalan ug gibag-on nga gibasa sa mga desktop app ug browser (outline ra ang gibasa sa RIPPS2).
@@ -116,6 +126,8 @@ Ang matag glyph usa ka hugpong sa mga polyline sa usa ka grid nga unom ka unit a
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Lisensya
 

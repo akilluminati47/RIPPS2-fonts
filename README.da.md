@@ -59,6 +59,8 @@ Bogstaverne har PS2-logoets skrift som forbillede: én tynd, jævn streg, firkan
 | **Bold** | kraftig streg | versaler | etiketter ved store glyffer, visningsordet, versionslinjen |
 | **Bold Case** | kraftig streg | ægte små bogstaver | indtastet tekst, skærmtastaturet, beskrivelser |
 
+<a id="preview"></a>
+
 ## Forhåndsvisning
 
 ### Regular
@@ -73,9 +75,13 @@ Bogstaverne har PS2-logoets skrift som forbillede: én tynd, jævn streg, firkan
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Tegnsæt
 
 Basislatin, Latin-1 og Udvidet Latin A/B: 337 kodepunkter i hvert snit. Bogstaver med accent tegnes indtil videre som deres grundbogstav. Hele listen: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Hent
 
@@ -85,6 +91,8 @@ Fra [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), eller d
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): de samme tre |
+
+<a id="use"></a>
 
 ## Brug
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **På en pc:** installér TTF-filerne som sædvanligt. Regular og Bold er én familie, *RIPPS2 Sleek*; Bold Case er sin egen familie, *RIPPS2 Sleek Case* (Bold), så de to aldrig støder sammen.
 
+<a id="build"></a>
+
 ## Byg
 
 Hver glyf er et sæt polylinjer på et gitter seks enheder højt (versalhøjden); hver får en streg, og stregerne smeltes sammen til én ren kontur. Tegningen ligger i [tools/make_sleek_font.py](tools/make_sleek_font.py) (den samme fil, som RIPPS2 bygger sine kopier fra); [tools/build.py](tools/build.py) laver alt her ud fra den og giver skrifttyperne de navne og vægte, som skrivebordsprogrammer og browsere læser (RIPPS2 læser kun konturerne).
@@ -116,6 +126,8 @@ Hver glyf er et sæt polylinjer på et gitter seks enheder højt (versalhøjden)
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licens
 

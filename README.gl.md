@@ -59,6 +59,8 @@ As letras toman como modelo o rótulo do logotipo de PS2: un trazo fino e unifor
 | **Bold** | trazo groso | maiúsculas | etiquetas xunto a glifos grandes, a palabra de vista, a liña de versión |
 | **Bold Case** | trazo groso | minúsculas de verdade | texto escrito, o teclado en pantalla, descricións |
 
+<a id="preview"></a>
+
 ## Vista previa
 
 ### Regular
@@ -73,9 +75,13 @@ As letras toman como modelo o rótulo do logotipo de PS2: un trazo fino e unifor
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Xogo de caracteres
 
 Latín básico, Latin-1 e Latín estendido A/B: 337 puntos de código en cada corte. Polo de agora as letras con acento debúxanse como a súa letra base. A lista completa: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Descarga
 
@@ -85,6 +91,8 @@ Dende [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ou di
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): os mesmos tres |
+
+<a id="use"></a>
 
 ## Uso
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Nun PC:** instala os TTF coma sempre. Regular e Bold son unha familia, *RIPPS2 Sleek*; Bold Case é unha familia á parte, *RIPPS2 Sleek Case* (Bold), así que nunca chocan.
 
+<a id="build"></a>
+
 ## Compilación
 
 Cada glifo é un conxunto de poliliñas sobre unha grella de seis unidades de alto (a altura das maiúsculas); cada unha trázase e os trazos únense nun único contorno limpo. O debuxo está en [tools/make_sleek_font.py](tools/make_sleek_font.py) (o mesmo ficheiro do que RIPPS2 constrúe as súas copias); [tools/build.py](tools/build.py) fai todo o de aquí a partir del e dá ás fontes os nomes e grosores que len as aplicacións de escritorio e os navegadores (RIPPS2 só le os contornos).
@@ -116,6 +126,8 @@ Cada glifo é un conxunto de poliliñas sobre unha grella de seis unidades de al
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licenza
 

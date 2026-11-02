@@ -59,6 +59,8 @@
 | **Bold** | ເສັ້ນໜາ | ຕົວໃຫຍ່ | ປ້າຍຂ້າງກລິບໃຫຍ່, ຄຳມຸມມອງ, ແຖວເວີຊັນ |
 | **Bold Case** | ເສັ້ນໜາ | ຕົວນ້ອຍແທ້ | ຂໍ້ຄວາມທີ່ພິມ, ແປ້ນພິມເທິງຈໍ, ຄຳອະທິບາຍ |
 
+<a id="preview"></a>
+
 ## ຕົວຢ່າງ
 
 ### Regular
@@ -73,9 +75,13 @@
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## ຊຸດຕົວອັກສອນ
 
 ລາຕິນພື້ນຖານ, Latin-1 ແລະ ລາຕິນຂະຫຍາຍ A/B: 337 ຈຸດລະຫັດໃນແຕ່ລະແບບ. ຕອນນີ້ຕົວອັກສອນທີ່ມີເຄື່ອງໝາຍແຕ້ມເປັນຕົວພື້ນຖານ. ລາຍການເຕັມ: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## ດາວໂຫຼດ
 
@@ -85,6 +91,8 @@
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (ເວັບ) | [fonts/woff2](fonts/woff2): ສາມອັນດຽວກັນ |
+
+<a id="use"></a>
 
 ## ການໃຊ້
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **ໃນ PC:** ຕິດຕັ້ງໄຟລ໌ TTF ຕາມປົກກະຕິ. Regular ແລະ Bold ເປັນຄອບຄົວດຽວ, *RIPPS2 Sleek*; Bold Case ເປັນຄອບຄົວແຍກ, *RIPPS2 Sleek Case* (Bold), ດັ່ງນັ້ນທັງສອງຈະບໍ່ຂັດກັນ.
 
+<a id="build"></a>
+
 ## ການສ້າງ
 
 ແຕ່ລະກລິບແມ່ນຊຸດເສັ້ນຫັກເທິງຕາໜ່າງສູງຫົກໜ່ວຍ (ຄວາມສູງຕົວໃຫຍ່); ແຕ່ລະເສັ້ນຖືກລາກ ແລະ ເສັ້ນທັງໝົດຖືກລວມເປັນເສັ້ນຂອບດຽວທີ່ສະອາດ. ແບບແຕ້ມຢູ່ໃນ [tools/make_sleek_font.py](tools/make_sleek_font.py) (ໄຟລ໌ດຽວກັນທີ່ RIPPS2 ສ້າງສຳເນົາຂອງມັນ); [tools/build.py](tools/build.py) ສ້າງທຸກຢ່າງຢູ່ນີ້ຈາກມັນ ແລະ ໃຫ້ຟອນມີຊື່ ແລະ ຄວາມໜາທີ່ໂປຣແກຣມ ແລະ ບຣາວເຊີອ່ານ (RIPPS2 ອ່ານແຕ່ເສັ້ນຂອບ).
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## ໃບອະນຸຍາດ
 

@@ -59,6 +59,8 @@
 | **Bold** | толстый штрих | прописные | подписи рядом с крупными глифами, слово вида, строка версии |
 | **Bold Case** | толстый штрих | настоящие строчные | вводимый текст, экранная клавиатура, описания |
 
+<a id="preview"></a>
+
 ## Образцы
 
 ### Regular
@@ -73,9 +75,13 @@
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Набор символов
 
 Базовая латиница, Latin-1 и Расширенная латиница A/B: 337 кодовых точек в каждом начертании. Пока буквы с диакритикой рисуются как их базовая буква. Полный список: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Скачать
 
@@ -85,6 +91,8 @@
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (веб) | [fonts/woff2](fonts/woff2): те же три |
+
+<a id="use"></a>
 
 ## Использование
 
@@ -106,16 +114,20 @@ font1=builtin:ripps2sleekcase          # Bold Case
 @font-face { font-family: "RIPPS2 Sleek Case"; font-weight: 700; src: url("RIPPS2Sleek-BoldCase.woff2") format("woff2"); }
 ```
 
-**На ПК:** установите TTF как обычно. Regular и Bold составляют одно семейство, *RIPPS2 Sleek*; Bold Case — отдельное семейство, *RIPPS2 Sleek Case* (Bold), так что они никогда не конфликтуют.
+**На ПК:** установите TTF как обычно. Regular и Bold составляют одно семейство, *RIPPS2 Sleek*; Bold Case образует отдельное семейство, *RIPPS2 Sleek Case* (Bold), так что они никогда не конфликтуют.
+
+<a id="build"></a>
 
 ## Сборка
 
-Каждый глиф — набор ломаных на сетке высотой шесть единиц (высота прописных); каждая обводится штрихом, а штрихи объединяются в один чистый контур. Рисунок лежит в [tools/make_sleek_font.py](tools/make_sleek_font.py) (том же файле, из которого RIPPS2 собирает свои копии); [tools/build.py](tools/build.py) делает из него всё, что здесь есть, и даёт шрифтам имена и насыщенность, которые читают программы и браузеры (сам RIPPS2 читает только контуры).
+Каждый глиф представляет собой набор ломаных на сетке высотой шесть единиц (высота прописных); каждая обводится штрихом, а штрихи объединяются в один чистый контур. Рисунок лежит в [tools/make_sleek_font.py](tools/make_sleek_font.py) (том же файле, из которого RIPPS2 собирает свои копии); [tools/build.py](tools/build.py) делает из него всё, что здесь есть, и даёт шрифтам имена и насыщенность, которые читают программы и браузеры (сам RIPPS2 читает только контуры).
 
 ```
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Лицензия
 

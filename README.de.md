@@ -59,6 +59,8 @@ Die Buchstaben nehmen sich den Schriftzug des PS2-Logos zum Vorbild: ein dünner
 | **Bold** | kräftiger Strich | Großbuchstaben | Beschriftungen neben großen Glyphen, das Ansichtswort, die Versionszeile |
 | **Bold Case** | kräftiger Strich | echte Kleinbuchstaben | getippter Text, die Bildschirmtastatur, Beschreibungen |
 
+<a id="preview"></a>
+
 ## Vorschau
 
 ### Regular
@@ -73,6 +75,8 @@ Die Buchstaben nehmen sich den Schriftzug des PS2-Logos zum Vorbild: ein dünner
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Zeichensatz
 
 Basis-Lateinisch, Latin-1 und Lateinisch Erweitert-A/B: 337 Codepunkte in jedem Schnitt. Buchstaben mit Akzent werden vorerst als ihr Grundbuchstabe gezeichnet. Die ganze Liste: [docs/charset.md](docs/charset.md).
@@ -85,6 +89,8 @@ Unter [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases) oder d
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (Web) | [fonts/woff2](fonts/woff2): dieselben drei |
+
+<a id="use"></a>
 
 ## Verwendung
 
@@ -108,6 +114,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Am PC:** die TTFs wie gewohnt installieren. Regular und Bold sind eine Familie, *RIPPS2 Sleek*; Bold Case ist eine eigene Familie, *RIPPS2 Sleek Case* (Bold), damit sich die beiden nie in die Quere kommen.
 
+<a id="build"></a>
+
 ## Erstellen
 
 Jede Glyphe ist eine Reihe von Polylinien auf einem Raster von sechs Einheiten Höhe (der Versalhöhe); jede wird nachgezogen und die Striche zu einer einzigen sauberen Kontur vereinigt. Die Zeichnung steht in [tools/make_sleek_font.py](tools/make_sleek_font.py) (derselben Datei, aus der RIPPS2 seine Kopien baut); [tools/build.py](tools/build.py) macht daraus alles hier und gibt den Schriften die Namen und Stärken, die Desktop-Programme und Browser lesen (RIPPS2 selbst liest nur die Konturen).
@@ -116,6 +124,8 @@ Jede Glyphe ist eine Reihe von Polylinien auf einem Raster von sechs Einheiten H
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Lizenz
 

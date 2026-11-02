@@ -59,6 +59,8 @@ Litery biorą za wzór napis z logo PS2: jedna cienka, równa kreska, kwadratowe
 | **Bold** | gruba kreska | wersaliki | etykiety przy dużych glifach, słowo widoku, linia wersji |
 | **Bold Case** | gruba kreska | prawdziwe małe litery | wpisywany tekst, klawiatura ekranowa, opisy |
 
+<a id="preview"></a>
+
 ## Podgląd
 
 ### Regular
@@ -73,9 +75,13 @@ Litery biorą za wzór napis z logo PS2: jedna cienka, równa kreska, kwadratowe
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Zestaw znaków
 
 Podstawowa łacina, Latin-1 i Łacina rozszerzona A/B: 337 punktów kodowych w każdej odmianie. Na razie litery z akcentami rysowane są jako ich litera bazowa. Pełna lista: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Pobieranie
 
@@ -85,6 +91,8 @@ Z [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases) lub prosto
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): te same trzy |
+
+<a id="use"></a>
 
 ## Użycie
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Na PC:** zainstaluj pliki TTF jak zwykle. Regular i Bold to jedna rodzina, *RIPPS2 Sleek*; Bold Case to osobna rodzina, *RIPPS2 Sleek Case* (Bold), więc nigdy się nie zderzają.
 
+<a id="build"></a>
+
 ## Budowanie
 
 Każdy glif to zestaw linii łamanych na siatce wysokiej na sześć jednostek (wysokość wersalików); każda dostaje kreskę, a kreski są łączone w jeden czysty kontur. Rysunek jest w [tools/make_sleek_font.py](tools/make_sleek_font.py) (tym samym pliku, z którego RIPPS2 buduje swoje kopie); [tools/build.py](tools/build.py) robi z niego wszystko, co tu jest, i nadaje czcionkom nazwy i grubości czytane przez programy i przeglądarki (sam RIPPS2 czyta tylko kontury).
@@ -116,6 +126,8 @@ Każdy glif to zestaw linii łamanych na siatce wysokiej na sześć jednostek (w
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licencja
 

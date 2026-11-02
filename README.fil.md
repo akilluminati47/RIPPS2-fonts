@@ -59,6 +59,8 @@ Ang mga titik ay ginaya sa sulat ng logo ng PS2: isang manipis at pantay na guhi
 | **Bold** | makapal na guhit | malalaking titik | mga label sa tabi ng malalaking glyph, ang salita ng view, ang linya ng release |
 | **Bold Case** | makapal na guhit | tunay na maliliit na titik | tinipang teksto, ang on-screen keyboard, mga paglalarawan |
 
+<a id="preview"></a>
+
 ## Silip
 
 ### Regular
@@ -73,9 +75,13 @@ Ang mga titik ay ginaya sa sulat ng logo ng PS2: isang manipis at pantay na guhi
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Set ng mga character
 
 Basic Latin, Latin-1 at Latin Extended-A/B: 337 code point sa bawat cut. Sa ngayon, iginuguhit ang mga titik na may tuldik bilang kanilang batayang titik. Ang buong listahan: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## I-download
 
@@ -85,6 +91,8 @@ Mula sa [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), o d
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): ang parehong tatlo |
+
+<a id="use"></a>
 
 ## Paggamit
 
@@ -108,6 +116,8 @@ Ang [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) ay buong isinulat
 
 **Sa PC:** i-install ang mga TTF gaya ng dati. Ang Regular at Bold ay iisang pamilya, *RIPPS2 Sleek*; ang Bold Case ay sariling pamilya, *RIPPS2 Sleek Case* (Bold), kaya hindi sila nagbabanggaan.
 
+<a id="build"></a>
+
 ## Pagbuo
 
 Bawat glyph ay isang hanay ng mga polyline sa isang grid na anim na unit ang taas (ang taas ng malaking titik); bawat isa ay ginuguhitan at pinagsasama ang mga guhit sa iisang malinis na balangkas. Ang guhit ay nasa [tools/make_sleek_font.py](tools/make_sleek_font.py) (ang parehong file na pinagmumulan ng mga kopya ng RIPPS2); ang [tools/build.py](tools/build.py) ang gumagawa ng lahat ng narito mula roon at nagbibigay sa mga font ng mga pangalan at kapal na binabasa ng mga desktop app at browser (balangkas lang ang binabasa ng RIPPS2).
@@ -116,6 +126,8 @@ Bawat glyph ay isang hanay ng mga polyline sa isang grid na anim na unit ang taa
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Lisensya
 

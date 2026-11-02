@@ -59,6 +59,8 @@ De letters nemen het schrift van het PS2-logo als voorbeeld: één dunne, gelijk
 | **Bold** | dikke lijn | hoofdletters | labels naast grote glyphs, het weergavewoord, de versieregel |
 | **Bold Case** | dikke lijn | echte kleine letters | getypte tekst, het schermtoetsenbord, beschrijvingen |
 
+<a id="preview"></a>
+
 ## Voorbeeld
 
 ### Regular
@@ -73,9 +75,13 @@ De letters nemen het schrift van het PS2-logo als voorbeeld: één dunne, gelijk
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Tekenset
 
 Basis-Latijn, Latin-1 en Latijn Uitgebreid-A/B: 337 codepunten in elke snit. Letters met accenten worden voorlopig als hun basisletter getekend. De volledige lijst: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Downloaden
 
@@ -85,6 +91,8 @@ Via [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), of rech
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): dezelfde drie |
+
+<a id="use"></a>
 
 ## Gebruik
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Op een pc:** installeer de TTF’s zoals gewoonlijk. Regular en Bold zijn één familie, *RIPPS2 Sleek*; Bold Case is een eigen familie, *RIPPS2 Sleek Case* (Bold), zodat ze elkaar nooit in de weg zitten.
 
+<a id="build"></a>
+
 ## Bouwen
 
 Elke glyph is een reeks polylijnen op een raster van zes eenheden hoog (de kapitaalhoogte); elke lijn krijgt een streek en de streken worden samengevoegd tot één schone omtrek. De tekening staat in [tools/make_sleek_font.py](tools/make_sleek_font.py) (hetzelfde bestand waar RIPPS2 zijn kopieën van bouwt); [tools/build.py](tools/build.py) maakt hier alles uit en geeft de lettertypen de namen en diktes die desktopprogramma’s en browsers lezen (RIPPS2 leest alleen de omtrekken).
@@ -116,6 +126,8 @@ Elke glyph is een reeks polylijnen op een raster van zes eenheden hoog (de kapit
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licentie
 

@@ -59,6 +59,8 @@ Các chữ lấy chữ trên logo PS2 làm mẫu: một nét mảnh và đều, 
 | **Bold** | nét đậm | chữ hoa | nhãn cạnh các glyph lớn, từ chế độ xem, dòng phiên bản |
 | **Bold Case** | nét đậm | chữ thường thật | văn bản gõ vào, bàn phím trên màn hình, mô tả |
 
+<a id="preview"></a>
+
 ## Xem trước
 
 ### Regular
@@ -73,9 +75,13 @@ Các chữ lấy chữ trên logo PS2 làm mẫu: một nét mảnh và đều, 
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Bộ ký tự
 
 Latin cơ bản, Latin-1 và Latin mở rộng A/B: 337 điểm mã ở mỗi kiểu. Hiện tại chữ có dấu được vẽ như chữ gốc. Danh sách đầy đủ: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Tải về
 
@@ -85,6 +91,8 @@ Từ [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), hoặc
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): cũng ba tệp đó |
+
+<a id="use"></a>
 
 ## Cách dùng
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Trên PC:** cài các tệp TTF như thường lệ. Regular và Bold là một họ, *RIPPS2 Sleek*; Bold Case là họ riêng, *RIPPS2 Sleek Case* (Bold), nên hai họ không bao giờ đụng nhau.
 
+<a id="build"></a>
+
 ## Dựng
 
 Mỗi glyph là một tập đường gấp khúc trên lưới cao sáu đơn vị (chiều cao chữ hoa); mỗi đường được vẽ nét và các nét gộp thành một đường viền sạch. Bản vẽ nằm trong [tools/make_sleek_font.py](tools/make_sleek_font.py) (chính tệp RIPPS2 dùng để dựng bản sao của nó); [tools/build.py](tools/build.py) tạo mọi thứ ở đây từ đó và đặt cho phông chữ tên và độ đậm mà ứng dụng máy tính và trình duyệt đọc (RIPPS2 chỉ đọc đường viền).
@@ -116,6 +126,8 @@ Mỗi glyph là một tập đường gấp khúc trên lưới cao sáu đơn v
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Giấy phép
 

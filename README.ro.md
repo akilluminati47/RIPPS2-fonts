@@ -59,6 +59,8 @@ Literele iau drept model inscripția logo-ului PS2: o singură linie subțire ș
 | **Bold** | linie groasă | majuscule | etichete lângă glife mari, cuvântul de vizualizare, linia versiunii |
 | **Bold Case** | linie groasă | minuscule adevărate | text tastat, tastatura de pe ecran, descrieri |
 
+<a id="preview"></a>
+
 ## Previzualizare
 
 ### Regular
@@ -73,9 +75,13 @@ Literele iau drept model inscripția logo-ului PS2: o singură linie subțire ș
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Set de caractere
 
 Latină de bază, Latin-1 și Latină extinsă A/B: 337 de puncte de cod în fiecare variantă. Deocamdată literele cu diacritice apar ca litera lor de bază. Lista completă: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Descărcare
 
@@ -85,6 +91,8 @@ De la [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), sau d
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): aceleași trei |
+
+<a id="use"></a>
 
 ## Utilizare
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Pe PC:** instalează fișierele TTF ca de obicei. Regular și Bold sunt o singură familie, *RIPPS2 Sleek*; Bold Case este o familie separată, *RIPPS2 Sleek Case* (Bold), ca să nu se încurce niciodată.
 
+<a id="build"></a>
+
 ## Construire
 
 Fiecare glifă este un set de linii frânte pe o grilă înaltă de șase unități (înălțimea majusculelor); fiecare primește o linie, iar liniile sunt unite într-un singur contur curat. Desenul se află în [tools/make_sleek_font.py](tools/make_sleek_font.py) (același fișier din care RIPPS2 își construiește copiile); [tools/build.py](tools/build.py) face din el tot ce este aici și dă fonturilor numele și grosimile pe care le citesc aplicațiile și browserele (RIPPS2 citește doar contururile).
@@ -116,6 +126,8 @@ Fiecare glifă este un set de linii frânte pe o grilă înaltă de șase unită
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licență
 

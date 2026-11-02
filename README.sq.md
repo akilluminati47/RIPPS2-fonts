@@ -59,6 +59,8 @@ Shkronjat marrin si model mbishkrimin e logos së PS2: një vijë e hollë dhe e
 | **Bold** | vijë e trashë | të mëdha | etiketa pranë glifeve të mëdha, fjala e pamjes, rreshti i versionit |
 | **Bold Case** | vijë e trashë | të vogla të vërteta | tekst i shtypur, tastiera në ekran, përshkrime |
 
+<a id="preview"></a>
+
 ## Parapamje
 
 ### Regular
@@ -73,9 +75,13 @@ Shkronjat marrin si model mbishkrimin e logos së PS2: një vijë e hollë dhe e
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Grupi i shkronjave
 
 Latinishtja bazë, Latin-1 dhe Latinishtja e zgjeruar A/B: 337 pika kodi në çdo prerje. Për tani shkronjat me theks vizatohen si shkronja e tyre bazë. Lista e plotë: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Shkarko
 
@@ -85,6 +91,8 @@ Nga [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), ose dre
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): të njëjtat tre |
+
+<a id="use"></a>
 
 ## Përdorimi
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Në kompjuter:** instaloji TTF-të si zakonisht. Regular dhe Bold janë një familje, *RIPPS2 Sleek*; Bold Case është familje më vete, *RIPPS2 Sleek Case* (Bold), që të mos përplasen kurrë.
 
+<a id="build"></a>
+
 ## Ndërtimi
 
 Çdo glif është një grup vijash të thyera mbi një rrjetë gjashtë njësi të lartë (lartësia e shkronjave të mëdha); secila merr një vijë dhe vijat bashkohen në një kontur të vetëm e të pastër. Vizatimi ndodhet në [tools/make_sleek_font.py](tools/make_sleek_font.py) (i njëjti skedar nga i cili RIPPS2 ndërton kopjet e veta); [tools/build.py](tools/build.py) bën prej tij gjithçka këtu dhe u jep shkronjave emrat dhe trashësitë që lexojnë programet dhe shfletuesit (RIPPS2 lexon vetëm konturet).
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licenca
 

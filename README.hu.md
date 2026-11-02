@@ -59,6 +59,8 @@ A betűk a PS2-logó feliratát veszik mintául: egyetlen vékony, egyenletes vo
 | **Bold** | vastag vonal | nagybetűk | címkék nagy jelek mellett, a nézetszó, a verziósor |
 | **Bold Case** | vastag vonal | valódi kisbetűk | begépelt szöveg, a képernyő-billentyűzet, leírások |
 
+<a id="preview"></a>
+
 ## Előnézet
 
 ### Regular
@@ -73,9 +75,13 @@ A betűk a PS2-logó feliratát veszik mintául: egyetlen vékony, egyenletes vo
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Karakterkészlet
 
 Alap latin, Latin-1 és Kiterjesztett latin A/B: 337 kódpont minden változatban. Az ékezetes betűk egyelőre alapbetűjükként jelennek meg. A teljes lista: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Letöltés
 
@@ -85,6 +91,8 @@ A [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases) oldalról,
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): ugyanaz a három |
+
+<a id="use"></a>
 
 ## Használat
 
@@ -108,6 +116,8 @@ A [RIPgrid](https://github.com/akilluminati47/RIPPS2-themes) teljes egészében 
 
 **PC-n:** telepítsd a TTF-eket a szokásos módon. A Regular és a Bold egy család, *RIPPS2 Sleek*; a Bold Case külön család, *RIPPS2 Sleek Case* (Bold), így sosem ütköznek.
 
+<a id="build"></a>
+
 ## Összeállítás
 
 Minden jel törött vonalak halmaza egy hat egység magas rácson (a nagybetű-magasság); mindegyik vonalat kap, és a vonalak egyetlen tiszta körvonallá olvadnak. A rajz a [tools/make_sleek_font.py](tools/make_sleek_font.py) fájlban van (ugyanabban, amelyből a RIPPS2 a saját másolatait készíti); a [tools/build.py](tools/build.py) ebből készít mindent, ami itt van, és megadja a betűtípusoknak azokat a neveket és vastagságokat, amelyeket az asztali programok és a böngészők olvasnak (a RIPPS2 csak a körvonalakat olvassa).
@@ -116,6 +126,8 @@ Minden jel törött vonalak halmaza egy hat egység magas rácson (a nagybetű-m
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licenc
 

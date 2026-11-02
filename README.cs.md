@@ -59,6 +59,8 @@ Písmena se řídí nápisem loga PS2: jeden tenký, rovnoměrný tah, hranaté 
 | **Bold** | silný tah | verzálky | popisky u velkých glyfů, slovo pohledu, řádek verze |
 | **Bold Case** | silný tah | skutečná malá písmena | psaný text, klávesnice na obrazovce, popisy |
 
+<a id="preview"></a>
+
 ## Ukázka
 
 ### Regular
@@ -73,9 +75,13 @@ Písmena se řídí nápisem loga PS2: jeden tenký, rovnoměrný tah, hranaté 
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Znaková sada
 
 Základní latinka, Latin-1 a Rozšířená latinka A/B: 337 kódových bodů v každém řezu. Písmena s diakritikou se zatím kreslí jako jejich základní písmeno. Celý seznam: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Stažení
 
@@ -85,6 +91,8 @@ Z [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), nebo př�
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): tytéž tři |
+
+<a id="use"></a>
 
 ## Použití
 
@@ -107,6 +115,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 ```
 
 **Na PC:** nainstalujte soubory TTF jako obvykle. Regular a Bold jsou jedna rodina, *RIPPS2 Sleek*; Bold Case je samostatná rodina, *RIPPS2 Sleek Case* (Bold), takže se nikdy nepletou.
+
+<a id="build"></a>
 
 ## Sestavení
 

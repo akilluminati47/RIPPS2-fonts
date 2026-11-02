@@ -59,6 +59,8 @@ Harfler PS2 logosunun yazısını örnek alır: tek, ince, eşit bir çizgi, kö
 | **Bold** | kalın çizgi | büyük harf | büyük glifler yanında etiketler, görünüm sözcüğü, sürüm satırı |
 | **Bold Case** | kalın çizgi | gerçek küçük harf | yazılan metin, ekran klavyesi, açıklamalar |
 
+<a id="preview"></a>
+
 ## Önizleme
 
 ### Regular
@@ -73,9 +75,13 @@ Harfler PS2 logosunun yazısını örnek alır: tek, ince, eşit bir çizgi, kö
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Karakter kümesi
 
 Temel Latin, Latin-1 ve Genişletilmiş Latin A/B: her kesimde 337 kod noktası. Aksanlı harfler şimdilik temel harfleri olarak çizilir. Tam liste: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## İndir
 
@@ -85,6 +91,8 @@ Temel Latin, Latin-1 ve Genişletilmiş Latin A/B: her kesimde 337 kod noktası.
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): aynı üçü |
+
+<a id="use"></a>
 
 ## Kullanım
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **PC’de:** TTF dosyalarını her zamanki gibi kurun. Regular ve Bold tek bir ailedir, *RIPPS2 Sleek*; Bold Case ayrı bir ailedir, *RIPPS2 Sleek Case* (Bold), böylece ikisi asla çakışmaz.
 
+<a id="build"></a>
+
 ## Derleme
 
 Her glif, altı birim yüksekliğinde (büyük harf yüksekliği) bir ızgara üzerindeki kırık çizgilerden oluşur; her birine çizgi verilir ve çizgiler tek temiz bir dış hatta birleştirilir. Çizim [tools/make_sleek_font.py](tools/make_sleek_font.py) dosyasındadır (RIPPS2’nin kendi kopyalarını kurduğu aynı dosya); [tools/build.py](tools/build.py) buradaki her şeyi ondan yapar ve yazı tiplerine masaüstü programlarının ve tarayıcıların okuduğu adları ve kalınlıkları verir (RIPPS2 yalnızca dış hatları okur).
@@ -116,6 +126,8 @@ Her glif, altı birim yüksekliğinde (büyük harf yüksekliği) bir ızgara ü
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Lisans
 

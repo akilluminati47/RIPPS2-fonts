@@ -59,6 +59,8 @@ Bokstäverna har PS2-logotypens text som förebild: ett tunt, jämnt streck, fyr
 | **Bold** | kraftigt streck | versaler | etiketter bredvid stora glyfer, visningsordet, versionsraden |
 | **Bold Case** | kraftigt streck | äkta gemener | inskriven text, skärmtangentbordet, beskrivningar |
 
+<a id="preview"></a>
+
 ## Förhandsvisning
 
 ### Regular
@@ -73,9 +75,13 @@ Bokstäverna har PS2-logotypens text som förebild: ett tunt, jämnt streck, fyr
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Teckenuppsättning
 
 Grundläggande latin, Latin-1 och Utökad latin A/B: 337 kodpunkter i varje snitt. Bokstäver med accent ritas tills vidare som sin grundbokstav. Hela listan: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Ladda ner
 
@@ -85,6 +91,8 @@ Från [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), eller
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (webb) | [fonts/woff2](fonts/woff2): samma tre |
+
+<a id="use"></a>
 
 ## Användning
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **På en dator:** installera TTF-filerna som vanligt. Regular och Bold är en familj, *RIPPS2 Sleek*; Bold Case är en egen familj, *RIPPS2 Sleek Case* (Bold), så att de två aldrig krockar.
 
+<a id="build"></a>
+
 ## Bygga
 
 Varje glyf är en uppsättning polylinjer på ett rutnät sex enheter högt (versalhöjden); var och en får ett streck och strecken slås ihop till en enda ren kontur. Ritningen finns i [tools/make_sleek_font.py](tools/make_sleek_font.py) (samma fil som RIPPS2 bygger sina kopior från); [tools/build.py](tools/build.py) gör allt här utifrån den och ger typsnitten de namn och vikter som skrivbordsprogram och webbläsare läser (RIPPS2 läser bara konturerna).
@@ -116,6 +126,8 @@ Varje glyf är en uppsättning polylinjer på ett rutnät sex enheter högt (ver
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Licens
 

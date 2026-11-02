@@ -59,6 +59,8 @@ PS2 フロントエンド [RIPPS2](https://github.com/akilluminati47/RIPPS2) の
 | **Bold** | 太い線 | 大文字 | 大きなグリフ横のラベル、ビュー語、リリース行 |
 | **Bold Case** | 太い線 | 本物の小文字 | 入力テキスト、オンスクリーンキーボード、説明文 |
 
+<a id="preview"></a>
+
 ## プレビュー
 
 ### Regular
@@ -73,9 +75,13 @@ PS2 フロントエンド [RIPPS2](https://github.com/akilluminati47/RIPPS2) の
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## 文字セット
 
 Basic Latin、Latin-1、Latin Extended-A/B：各カット 337 コードポイント。アクセント付きの文字は今のところ基本文字として描画されます。全一覧：[docs/charset.md](docs/charset.md)。
+
+<a id="download"></a>
 
 ## ダウンロード
 
@@ -85,6 +91,8 @@ Basic Latin、Latin-1、Latin Extended-A/B：各カット 337 コードポイン
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2（ウェブ） | [fonts/woff2](fonts/woff2)：同じ 3 つ |
+
+<a id="use"></a>
 
 ## 使い方
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **PC では：** いつもどおり TTF をインストールします。Regular と Bold は一つのファミリー *RIPPS2 Sleek*、Bold Case は別のファミリー *RIPPS2 Sleek Case*（Bold）なので、ぶつかることはありません。
 
+<a id="build"></a>
+
 ## ビルド
 
 各グリフは高さ 6 ユニット（キャップハイト）のグリッド上の折れ線の集まりで、それぞれに線を引き、その線を一つのきれいなアウトラインに合成します。描画は [tools/make_sleek_font.py](tools/make_sleek_font.py)（RIPPS2 が自分のコピーを作るのと同じファイル）にあり、[tools/build.py](tools/build.py) がそこからここにあるすべてを作り、デスクトップアプリやブラウザが読む名前とウェイトをフォントに付けます（RIPPS2 自身はアウトラインだけを読みます）。
@@ -116,6 +126,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## ライセンス
 

@@ -59,6 +59,8 @@ Hurufnya meniru tulisan logo PS2: satu goresan tipis dan rata, sudut persegi, hu
 | **Bold** | goresan tebal | kapital | label di samping glif besar, kata tampilan, baris rilis |
 | **Bold Case** | goresan tebal | huruf kecil asli | teks yang diketik, papan ketik layar, deskripsi |
 
+<a id="preview"></a>
+
 ## Pratinjau
 
 ### Regular
@@ -73,9 +75,13 @@ Hurufnya meniru tulisan logo PS2: satu goresan tipis dan rata, sudut persegi, hu
 
 ![Bold Case](docs/preview-boldcase.png)
 
+<a id="character-set"></a>
+
 ## Set karakter
 
 Latin Dasar, Latin-1, dan Latin Diperluas A/B: 337 titik kode di setiap potongan. Untuk sementara huruf beraksen digambar sebagai huruf dasarnya. Daftar lengkap: [docs/charset.md](docs/charset.md).
+
+<a id="download"></a>
 
 ## Unduh
 
@@ -85,6 +91,8 @@ Dari [Releases](https://github.com/akilluminati47/RIPPS2-fonts/releases), atau l
 |---|---|
 | TTF | [fonts/ttf](fonts/ttf): `RIPPS2Sleek-Regular.ttf`, `RIPPS2Sleek-Bold.ttf`, `RIPPS2Sleek-BoldCase.ttf` |
 | WOFF2 (web) | [fonts/woff2](fonts/woff2): tiga yang sama |
+
+<a id="use"></a>
 
 ## Penggunaan
 
@@ -108,6 +116,8 @@ font1=builtin:ripps2sleekcase          # Bold Case
 
 **Di PC:** pasang TTF seperti biasa. Regular dan Bold adalah satu keluarga, *RIPPS2 Sleek*; Bold Case adalah keluarga tersendiri, *RIPPS2 Sleek Case* (Bold), jadi keduanya tidak pernah bentrok.
 
+<a id="build"></a>
+
 ## Membangun
 
 Setiap glif adalah sekumpulan garis patah pada kisi setinggi enam satuan (tinggi kapital); masing-masing diberi goresan dan goresan-goresan itu disatukan menjadi satu garis luar yang bersih. Gambarnya ada di [tools/make_sleek_font.py](tools/make_sleek_font.py) (berkas yang sama tempat RIPPS2 membangun salinannya); [tools/build.py](tools/build.py) membuat semua yang ada di sini darinya dan memberi fon nama serta ketebalan yang dibaca aplikasi desktop dan peramban (RIPPS2 sendiri hanya membaca garis luarnya).
@@ -116,6 +126,8 @@ Setiap glif adalah sekumpulan garis patah pada kisi setinggi enam satuan (tinggi
 pip install -r requirements.txt
 python tools/build.py
 ```
+
+<a id="licence"></a>
 
 ## Lisensi
 
